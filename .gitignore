@@ -1,0 +1,33 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Local kubeconfig files
+kubeconfig
+*.kubeconfig
+
+# Secrets / certificates
+*.key
+*.crt
+*.pem
+
+# Build artifacts, mocht de demo-app later groeien
+dist/
+build/
